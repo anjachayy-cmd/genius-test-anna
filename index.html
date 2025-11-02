@@ -4,34 +4,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Moderne Bäckerei</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body> 
  <header>
   <nav> 
-    <a href="">
+    <a href="./index.html">
     <img src="./images/logo.svg" alt="Logo moderne Bäckerei">
   </a>
     <ul>
-      <li><a href="#">Franchise</a></li>
-      <li><a href="#">Unsere Traditionen</a></li>
-      <li><a href="#">Formate</a></li>
-      <li><a href="#">Kontakte</a></li>
+      <li><a class="link" href="#traditions-section">Traditionen</a></li>
+      <li><a class="link" href="#köche-section">Koche</a></li>
+      <li><a class="link" href="#format-section">Formate</a></li>
+      <li><a class="link" href="#kontakt-section">Kontakte</a></li>
     </ul>
   </nav>
-  <button type="button">Rückruf anfordern</button>
+  <button class="button"type="button">Rückruf anfordern</button>
  </header>
+
 <main> 
   <section>
-    <h1>
-      Moderne Bäckerei</h1>
+
+    <h1 class="hero-title"><span class="accent">Moderne</span> Bäckerei</h1>
   </section>
-  <section>
-    <ul>
+  <section id="traditions-section">
+    <ul class="advantages-list">
       <li>Hohe Nachfrage am Markt</li>
       <li>Budget-Fußformate</li>
       <li>Erfahrenes Managementteam</li>
     </ul>
-    <h2>
+    <h2 class="section-title">
       Neues Format der Traditionen
     </h2>
     <p>
@@ -46,9 +48,9 @@ und erstklassigem Service!
     </p>
     <img src="./images/baker.jpg" alt="baker man mit brot">
   </section>
-  <section> 
-    <h2>
-      Unsere besten Köche</h2>
+  <section id="köche-section"> 
+    <h2 class="section-title">
+      Unsere besten <span class="accent">Köche</span></h2>
       <ul>
         <li>
           <article>
@@ -67,8 +69,8 @@ und erstklassigem Service!
       </ul>
     
   </section>
-  <section>
-    <h2>Formate</h2>
+  <section id="format-section">
+    <h2 class="section-title">Formate</h2>
     <ul>
     <li>
     <article> <h3
@@ -84,10 +86,9 @@ und erstklassigem Service!
     </article></li>
     </ul>
   </section>
-  <section>
-    <h2> 
-      Begleiten Sie uns
-    </h2>
+  <section id="kontakt-section">
+    <h2 class="section-title">Begleiten Sie uns</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.1636289098733!2d30.4912733!3d50.4566776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637c006b2d%3A0xaf86385f19996ff0!2z0YPQuy4g0KHQtdGH0LXQstGL0YUg0KHRgtGA0LXQu9GM0YbQvtCyLCA1NCwg0JrQuNC10LIsINCj0LrRgNCw0LjQvdCwLCAwMjAwMA!5e0!3m2!1sru!2sde!4v1762092110607!5m2!1sru!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </section>
 
 </main>
