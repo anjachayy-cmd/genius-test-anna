@@ -4,112 +4,159 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Moderne Bäckerei</title>
+
+  <!-- Styles -->
 <link rel="stylesheet" href="styles.css">
 </head>
 <body> 
- <header>
-  <nav> 
+ <header class="header">
+  <div class="container">
+    <div class="header-container">
+  <nav class="header-nav"> 
     <a href="./index.html">
     <img src="./images/logo.svg" alt="Logo moderne Bäckerei">
   </a>
-    <ul>
-      <li><a class="link" href="#traditions-section">Traditionen</a></li>
-      <li><a class="link" href="#köche-section">Koche</a></li>
-      <li><a class="link" href="#format-section">Formate</a></li>
-      <li><a class="link" href="#kontakt-section">Kontakte</a></li>
+    <ul class="header-menu">
+      <li ><a class="link" href="#traditions-section">Traditionen</a></li>
+      <li ><a class="link" href="#köche-section">Koche</a></li>
+      <li ><a class="link" href="#format-section">Formate</a></li>
+      <li ><a class="link" href="#kontakt-section">Kontakte</a></li>
     </ul>
   </nav>
   <button class="button"type="button">Rückruf anfordern</button>
- </header>
+</div>
+</div>
+</header>
 
 <main> 
-  <section>
+  <section class="hero-section">
+    <div class="container">
 
     <h1 class="hero-title"><span class="accent">Moderne</span> Bäckerei</h1>
+  </div>
   </section>
-  <section id="traditions-section">
+  
+  <section class="advantages-section">
+    <div class="container"> 
+    <h2 class="visually-hidden">Unsere Vorteile</h2>
     <ul class="advantages-list">
-      <li>Hohe Nachfrage am Markt</li>
-      <li>Budget-Fußformate</li>
-      <li>Erfahrenes Managementteam</li>
+      <li class="advantages-item">Hohe Nachfrage am Markt</li>
+      <li class="advantages-item">Budget-Fußformate</li>
+      <li class="advantages-item">Erfahrenes Managementteam</li>
     </ul>
-    <h2 class="section-title">
+    </div>
+    </section>
+    <section class="tradition-section section"> 
+
+    </section>
+    <div class="container"> 
+      <div class="traditions-container">
+    <div class="tradition-content">
+        <h2 class=" traditions-title section-title">
       Neues Format der Traditionen
     </h2>
-    <p>
-      <span>Shop Bakery</span>
+    <p class="traditions-text">
+      <span class="brand uppercase">Shop Bakery</span>
        ist eine Bäckerei, die das Beste aus traditionellen Backwaren und die Natürlichkeit der Zutaten bewahrt hat.
     </p>
-    <p>
-      Wir arbeiten wie die bekanntesten Ketten –
-<span>in 5 Minuten ist Ihre Bestellung fertig.</span>
-Und unsere Bäckereien überzeugen mit stilvollem Design
+    <p class="traditions-text limited">
+      Wir arbeiten wie die bekanntesten Ketten – 
+<span class="brand">in 5 Minuten ist Ihre Bestellung fertig.</span> 
+Und unsere Bäckereien überzeugen mit stilvollem Design 
 und erstklassigem Service!
     </p>
-    <img src="./images/baker.jpg" alt="baker man mit brot">
+    </div>
+    <img src="./images/baker.jpg" 
+    alt="baker man mit brot"/>
+  </div>
+  </div>
   </section>
-  <section id="köche-section"> 
-    <h2 class="section-title">
+  <section class="section" id="köche-section"> 
+    <div class="container">
+    <h2 class=" chefs-title section-title">
       Unsere besten <span class="accent">Köche</span></h2>
       <ul>
         <li>
           <article>
-          <h3> Anastasia
+          <h3 class="chef-title"> Anastasia
           </h3>
           <p>Hallo, ich bin Nastya!</p>
     <p>Seit 10 Jahren setze ich interessante und leckere Ideen in die Tat</p>
     <p>Ich backe die köstlichsten Produkte für Sie!</p>
         </article></li>
         <li><article>
-          <h3> Vladislav</h3>
+          <h3 class="chef-title"> Vladislav</h3>
           <p>Hallo, ich bin Vlad!</p> 
           <p>Ich bin seit 18 Jahren Konditor. SHOP BEKERY ist unsere Leidenschaft, die wir jedes Mal mit Ihnen durch unsere Backwaren teilen!</p>
           <p>Ich kreiere für Sie eine einzigartige Füllung ganz nach Ihrem Geschmack!</p>
         </article></li>
       </ul>
-    
+    </div>
   </section>
-  <section id="format-section">
-    <h2 class="section-title">Formate</h2>
-    <ul>
+  <section class="section" id="format-section">
+    <div class="container">
+    <h2 class=" formats-title section-title">Formate</h2>
+    <ul class="formats-list">
     <li>
-    <article> <h3
-      lang="en">Walrus</h3>
+    <article class="format-card"> 
+      <h3 class="format-title" lang="en">Walrus</h3>
+    <div class="format-text">
+      <p> Fläche: bis zu 120 m²</p>
+      <p > Speisekarte: Erweiterte Speisekarte</p>
+      <p > Personal: 2 Kassierer, 2 Bäcker, 2 Bäckergehilfen, 2 Servicekräfte</p>
+      <p > Sitzplätze: + </p>
+    </div>
+    
     </article></li>
-    <li><article>
-      <h3
+    <li><article class="format-card">
+      <h3 class="format-title"
       lang="en">Horseshoe</h3>
+      <div class="format-text">
+        <p> Fläche: bis zu 120 m²</p>
+        <p > Speisekarte: Erweiterte Speisekarte</p>
+        <p > Personal: 2 Kassierer, 2 Bäcker, 2 Bäckergehilfen, 2 Servicekräfte</p>
+        <p > Sitzplätze: + </p>
+      </div>
     </article></li>
-    <li><article>
-      <h3
+    <li><article class="format-card">
+      <h3 class="format-title"
       lang="en">Handlebar</h3>
+      <div class="format-text">
+        <p> Fläche: bis zu 120 m²</p>
+        <p > Speisekarte: Erweiterte Speisekarte</p>
+        <p > Personal: 2 Kassierer, 2 Bäcker, 2 Bäckergehilfen, 2 Servicekräfte</p>
+        <p > Sitzplätze: + </p>
     </article></li>
     </ul>
+  </div>
   </section>
-  <section id="kontakt-section">
-    <h2 class="section-title">Begleiten Sie uns</h2>
+  <section class="section" id="contakt-section">
+    <div class="container">
+    <h2 class=" contacts-title section-title">Begleiten Sie uns</h2>
+    <p>Füllen Sie das Formular aus, damit wir Sie kontaktieren können!</p>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.1636289098733!2d30.4912733!3d50.4566776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637c006b2d%3A0xaf86385f19996ff0!2z0YPQuy4g0KHQtdGH0LXQstGL0YUg0KHRgtGA0LXQu9GM0YbQvtCyLCA1NCwg0JrQuNC10LIsINCj0LrRgNCw0LjQvdCwLCAwMjAwMA!5e0!3m2!1sru!2sde!4v1762092110607!5m2!1sru!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  </section>
+  </div>
+</section>
 
 </main>
 <footer>
-
+<div class="container">
 <nav> 
   <a href="#">
     <img src="./images/logo.svg" alt="logo modernes Bäckerei">
   </a>
   <ul>
-    <li><a href="#">Franchise</a></li>
-    <li><a href="#">Unsere Traditionen</a></li>
-    <li><a href="#">Formate</a></li>
-    <li><a href="#">Kontakte</a></li>
+    <li><a class="link" href="#">Franchise</a></li>
+    <li><a class="link" href="#">Unsere Traditionen</a></li>
+    <li><a class="link" href="#">Formate</a></li>
+    <li><a class="link" href="#">Kontakte</a></li>
   </ul>
 </nav>
 <address>
   <ul>
-    <li><a href="tel:+380960000007">+ 38 (096) 000 00 07</a></li>
-    <li><a href="mailto:shopbakery@gmail.com">shopbakery@gmail.com</a></li>
-    <li><a href="https://maps.app.goo.gl/sJ74Mz4QFqk28eXV6" target="_blank">Україна, м. Київ, 
+    <li><a class="adress-link" href="tel:+380960000007"> + 38 (096) 000 00 07</a></li>
+    <li><a class="adress-link" href="mailto:shopbakery@gmail.com"> shopbakery@gmail.com</a></li>
+    <li><a class="adress-link" href="https://maps.app.goo.gl/sJ74Mz4QFqk28eXV6" target="_blank">Україна, м. Київ, 
       вул. Січових Стрільців 54
     </a>
   </li>
@@ -125,9 +172,10 @@ und erstklassigem Service!
   </li>
    
   </ul>
-  <a href="#" target="_blank">Datenschutzrichtlinie</a>
-<p>© 2022 Datenschutz </p>
+  <a class="adress-link" href="#" target="_blank">Datenschutzrichtlinie</a>
+<p class="adress-copylink" >© 2022 Datenschutz </p>
 </address>
+</div>
 </footer>
 </body>
 </html> 
